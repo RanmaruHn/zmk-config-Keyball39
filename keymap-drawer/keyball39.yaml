@@ -182,7 +182,7 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - Ctl+Gui+ $$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+ $$mdi:keyboard-tab$$
   - Ctl+Gui+ $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgDn

@@ -64,20 +64,20 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp Q      &kp W         &kp E     &kp R         &kp T                                    &kp Y            &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S         &kp D     &kp F         &kp G                                    &kp H            &kp J  &kp K      &kp L    &kp SEMI
-&kp Z      &kp X         &kp C     &kp V         &kp B                                    &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LALT  &lt 6 ESCAPE  &lt 4 SPACE  &lt 5 LA(GRAVE)  &kp ENTER  &lt 2 BACKSPACE                             &kp RSHFT
+&kp Q      &kp W         &kp E     &kp R         &kp T                                  &kp Y          &kp U  &kp I      &kp O      &kp P
+&kp A      &kp S         &kp D     &kp F         &kp G                                  &kp H          &kp J  &kp K      &kp L      &kp ENTER
+&kp Z      &kp X         &kp C     &kp V         &kp B                                  &kp N          &kp M  &mkp LCLK  &mkp RCLK  &kp RIGHT_SHIFT
+&kp LCTRL  &kp LEFT_WIN  &kp LALT  &lt 1 ESCAPE  &lt 4 SPACE  &kp LA(GRAVE)  &lt 2 TAB  &kp BACKSPACE                               &lt 5 DELETE
             >;
         };
 
-        number_layer {
+        number_function_layer {
             label = "NUM";
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT     &none                         &none         &none         &none         &none         &none
-&none         &none         &none         &none         &none                         &none         &none         &trans        &trans        &none
-&trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans                                                  &trans
+&none   &none   &none   &none   &none                   &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH
+&none   &none   &none   &none   &none                   &none         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK
+&none   &none   &none   &none   &none                   &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                  &kp PLUS
             >;
         };
 
@@ -86,8 +86,8 @@
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT                  &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans                       &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
-&trans           &trans        &trans        &trans        &trans                       &kp UNDERSCORE  &kp PLUS       &trans            &trans                &kp NON_US_BACKSLASH
-&trans           &trans        &trans        &trans        &trans       &trans  &trans  &trans                                                                 &trans
+&trans           &trans        &trans        &trans        &trans                       &kp UNDERSCORE  &kp PLUS       &kp COMMA         &kp PERIOD            &kp SLASH
+&trans           &trans        &trans        &trans        &trans       &trans  &trans  &trans                                                                 &kp NON_US_BACKSLASH
             >;
         };
 
@@ -104,10 +104,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&kp N1          &kp N2          &kp N3        &kp N4     &kp N5                  &kp N6         &kp N7     &kp N8  &kp N9     &kp N0
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none                   &kp PAGE_UP    &mkp LCLK  &none   &mkp RCLK  &mkp MCLK
-&none           &none           &none         &none      &none                   &kp PAGE_DOWN  &none      &none   &none      &none
-&none           &trans          &trans        &trans     &trans  &trans  &trans  &mo 3                                        &none
+&none  &none   &none   &none   &none                   &none          &none             &kp LG(TAB)     &none                    &none
+&none  &none   &none   &none   &none                   &kp PAGE_UP    &kp LC(LG(LEFT))  &kp UP_ARROW    &kp LC(LG(RIGHT_ARROW))  &none
+&none  &none   &none   &none   &none                   &kp PAGE_DOWN  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT                &none
+&none  &trans  &trans  &trans  &trans  &trans  &trans  &mo 3                                                                     &none
             >;
         };
 

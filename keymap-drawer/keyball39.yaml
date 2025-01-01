@@ -36,7 +36,7 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: FUN}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: Alt+`, h: NUM, s: Alt+~}
-  - Ctl+A
+  - {t: Ctl+A, h: SNIPE}
   - {t: '$$mdi:backspace$$', h: MOUSE}
   - $$mdi:backspace-reverse-outline$$
   NUM:
@@ -109,7 +109,7 @@ layers:
   - +
   - {t: ',', s: <}
   - .
-  - \
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -118,7 +118,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - \
   FUN:
   - F1
   - F2
@@ -174,7 +174,7 @@ layers:
   - Alt+$$mdi:arrow-left-bold$$
   - HOME
   - Alt+$$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Sft+Ctl+W
   - PgUp
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -276,6 +276,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

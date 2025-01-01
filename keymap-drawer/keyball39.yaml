@@ -189,7 +189,7 @@ layers:
   - Gui+Ctl+$$mdi:arrow-left-bold$$
   - Gui+$$mdi:keyboard-tab$$
   - Gui+Ctl+$$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

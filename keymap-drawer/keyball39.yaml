@@ -33,12 +33,12 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-tab$$', h: FUN}
+  - {t: '$$mdi:keyboard-tab$$', h: SNIPE}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: Alt+`, h: NUM, s: Alt+~}
-  - {t: Ctl+A, h: SNIPE}
+  - Ctl+A
   - {t: '$$mdi:backspace$$', h: MOUSE}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace-reverse-outline$$', h: SNIPE}
   NUM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -153,7 +153,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -174,7 +174,7 @@ layers:
   - Alt+$$mdi:arrow-left-bold$$
   - HOME
   - Alt+$$mdi:arrow-right-bold$$
-  - Sft+Ctl+W
+  - Ctl+W
   - PgUp
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -273,9 +273,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}

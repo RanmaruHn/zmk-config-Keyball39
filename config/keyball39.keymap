@@ -15,10 +15,11 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -112,10 +113,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&none           &none         &none     &none                &none                      &none          &none             &kp UP_ARROW    &none                    &none
-&none           &kp LA(LEFT)  &kp HOME  &kp LA(RIGHT)        &kp LC(W)                  &kp PAGE_UP    &kp LEFT          &kp DOWN_ARROW  &kp RIGHT_ARROW          &none
-&none           &kp LS(LEFT)  &kp END   &kp LS(RIGHT_ARROW)  &none                      &kp PAGE_DOWN  &kp LG(LC(LEFT))  &kp LG(TAB)     &kp LG(LC(RIGHT_ARROW))  &kp LEFT_CONTROL
-&kp LEFT_SHIFT  &trans        &trans    &trans               &trans     &trans  &trans  &mo 3                                                                     &none
+&none           &none         &none     &none                &none                              &none          &none             &kp UP_ARROW    &none                    &none
+&none           &kp LA(LEFT)  &kp HOME  &kp LA(RIGHT)        &kp LC(W)                          &kp PAGE_UP    &kp LEFT          &kp DOWN_ARROW  &kp RIGHT_ARROW          &none
+&none           &kp LS(LEFT)  &kp END   &kp LS(RIGHT_ARROW)  &kp LG(LC(LS(T)))                  &kp PAGE_DOWN  &kp LG(LC(LEFT))  &kp LG(TAB)     &kp LG(LC(RIGHT_ARROW))  &kp LEFT_CONTROL
+&kp LEFT_SHIFT  &trans        &trans    &trans               &trans             &trans  &trans  &mo 3                                                                     &none
             >;
         };
 

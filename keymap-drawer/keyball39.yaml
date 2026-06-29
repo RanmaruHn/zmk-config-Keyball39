@@ -172,9 +172,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Alt+AC BACK
+  - AC BACK
   - AC HOME
-  - Alt+AC FORWARD
+  - AC FORWARD
   - Ctl+W
   - PgUp
   - $$mdi:arrow-left-bold$$

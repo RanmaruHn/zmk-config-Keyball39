@@ -17,5 +17,8 @@ include:
     shield: keyball39_left
   - board: nice_nano_v2
     shield: keyball39_right
+    # Stage 1 (diagnostic): enable USB serial logging on the central half via the
+    # official ZMK snippet, which adds the required CDC ACM UART overlay + configs.
+    snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: settings_reset

@@ -7,10 +7,12 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: feat/pointers-move-scroll
+      # Pinned to feat/pointers-move-scroll HEAD (was a moving branch) to stop drift
+      revision: bc75de59f74e9913c810ab358e4d26cdfebfb157
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: inorichi
-      revision: main
+      # Pinned to main HEAD (was a moving branch) to stop drift
+      revision: 1d9c2c68ca76012e1b1e5f6ef02fa5eadc4ca399
   self:
     path: config

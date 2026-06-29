@@ -2,4 +2,7 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    # Pinned to the commit just before ZMK_BOARD_COMPAT check (a23aa00) was added,
+    # to avoid step "Check if building a board without explicit ZMK compat" failing
+    # against this config's older pinned ZMK. See keyball39-firmware-changelog.
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@2a9ac3ba7f23e3fd6c6efef986f35fc2b9c55bf3

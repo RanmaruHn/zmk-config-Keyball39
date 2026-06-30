@@ -36,7 +36,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-tab$$', h: SNIPE}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
-  - {t: LANG5, h: NUM}
+  - {t: INT HENKAN, h: NUM}
   - Ctl+A
   - {t: '$$mdi:backspace$$', h: MOUSE}
   - {t: '$$mdi:backspace-reverse-outline$$', h: SNIPE}
